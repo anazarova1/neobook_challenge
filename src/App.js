@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router';
 import { Register } from './pages/Register';
+import { Home } from './pages/Home/home';
 
 function App() {
   return (
