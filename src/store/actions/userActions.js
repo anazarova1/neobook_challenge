@@ -31,3 +31,19 @@ export const loginUser = createAsyncThunk(
         }
     }
 );
+
+export const getUserInfo = createAsyncThunk(
+    "getUserInfo",
+    async () => {
+        try {
+            const { data } = await axios.get(`${process.env.REACT_APP_MAIN_URL}/users/me`, {
+                headers: {
+                    Authorization: localStorage.getItem("token")
+                }
+            });
+            return data;
+        } catch (error) {
+            toast.error(error.response.data);
+        }
+    }
+);
