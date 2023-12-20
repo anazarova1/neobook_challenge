@@ -1,0 +1,27 @@
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+    li {
+        list-style-type: none;
+    }
+
+    .nav_flex {
+        display: flex;
+        align-items: center;
+        gap: 120px;
+
+        .nav_button {
+            background-color: #5458EA;
+            width: 215px;
+            height: 44px;
+            padding: 10px;
+            border-radius: 80px;
+            border: none;
+            color: white;
+            font-weight: 700;
+        }
+    }
+}
