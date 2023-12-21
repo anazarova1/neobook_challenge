@@ -15,6 +15,14 @@ export const Home = () => {
             <div className={styles.nav_flex}>
             <li><button className={styles.nav_button}>Подать обьявление</button></li>
             <li><img className={styles.nav_image} src={image2} alt='image person' /></li>
+            <div className={styles.home_content}>
+<CardProduct/>
+            </div>
+            <div>
+                <form>
+                    
+                </form>
+            </div>
             </div>
             </ul>
           </nav>
