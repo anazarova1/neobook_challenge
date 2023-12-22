@@ -1,5 +1,14 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin: auto 0;
+}

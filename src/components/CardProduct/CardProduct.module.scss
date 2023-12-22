@@ -1,6 +1,18 @@
-.card{
+.card {
     width: 154px;
     height: 184px;
     border-radius: 12px;
-    
+    background-color: #FFFFFF;
+
+    .card_img_par{
+text-align: center;
+        .card_img{
+            margin-top: 6px;
+            display: inline-block;
+        }
+    }
+
+    .card_price {
+        color: #5D5FEF;
+    }
 }

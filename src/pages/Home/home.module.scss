@@ -25,9 +25,8 @@
         }
     }
 }
-.home_content{
-    background-color: azure;
-    width: 1200px;
-    margin: 20px;
-    
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }

@@ -16,7 +16,7 @@ export const Home = () => {
             <li><button className={styles.nav_button}>Подать обьявление</button></li>
             <li><img className={styles.nav_image} src={image2} alt='image person' /></li>
             <div className={styles.home_content}>
-<CardProduct/>
+
             </div>
             <div>
                 <form>
@@ -27,8 +27,31 @@ export const Home = () => {
             </ul>
           </nav>
         </div>
-        <div>
-<CardProduct/>
+        <div className={styles.cards}>
+<CardProduct
+title="BMW M4 Coupe: A Two-Door"
+price="23 000 $"
+/>
+<CardProduct
+title="BMW M4 Coupe: A Two-Door"
+price="23 000 $"
+/>
+<CardProduct
+title="BMW M4 Coupe: A Two-Door"
+price="23 000 $"
+/>
+<CardProduct
+title="BMW M4 Coupe: A Two-Door"
+price="23 000 $"
+/>
+<CardProduct
+title="BMW M4 Coupe: A Two-Door"
+price="23 000 $"
+/>
+<CardProduct
+title="BMW M4 Coupe: A Two-Door"
+price="23 000 $"
+/>
         </div>
         </div>
         </>

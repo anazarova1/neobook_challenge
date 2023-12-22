@@ -5,9 +5,11 @@ export const CardProduct = (props) => {
     return(
         <>
         <div className={styles.card}>
-        <img className={styles.card_img} src={img} alt='img' />
- <h2>{props.title}</h2>
-<h3>{props.price}</h3>
+            <div className={styles.card_img_par}>
+            <img className={styles.card_img} src={img} alt='img' />
+            </div>
+ <h2 className={styles.card_title}>{props.title}</h2>
+<h3 className={styles.card_price}>{props.price}</h3>
 <img className={styles.card_image} src={image} alt='image' />
 
         </div>
